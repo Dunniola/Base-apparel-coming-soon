@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    
+     display: grid;
+    place-content: center; 
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;  
+    
+}
+.error-message{
+    color: red;
+   position: relative;
+   bottom: 2rem;
+   padding:0.8rem  6rem;
+}
+.icon-error{
+     display: none;
+     font-family:'Josefin Sans' ; 
+}
+
+
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+         }
+.attribution a {
+    color: hsl(228, 41%, 69%); 
+        }
+
+@media(min-width:960px) and (max-width:1440px){
+    .main-container{
+        max-width:50rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .mobile-image{
+        display: none;
+    }
+    .desktop-image{
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .desktop{
+        width: 20rem;
+       
+
+    }
+    .mobile{
+        display: none;
+    }
+    .main-container{
+        background: linear-gradient(hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+       
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-position:top;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+       
+    }
+    .container{
+        padding:0  4rem;
+        
+    }
+    h1{
+        padding-top: 0.5rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.6rem;
+        padding-right: 1rem;
+        color:  hsl(0, 6%, 24%);
+
+    }
+    input{
+        border: 1px solid hsl(0, 36%, 70%);
+        border-radius: 30px;
+        padding: 0.7rem;
+        position: relative;
+        width: 20rem;
+        top: 0.5rem;
+        background-color: white;
+       
+       
+    }
+    button{
+        position: relative;
+        border-radius: 50%;
+        padding: 0.2rem;
+        height: 2.5rem;
+        background-color: hsl(0, 36%, 70%) ;
+        border: 0;
+        width: 4rem;
+        border-radius: 30px;
+        cursor: pointer;
+        bottom: 2rem;
+        left: 16rem;
+        
+
+    
+        
+    }
+    button:hover{
+        box-shadow: 0 10px 20px hsl(0, 36%, 70%) ;
+    }
+    ::placeholder{
+        color:hsl(0, 50%, 7%) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0.3rem;
+        margin-left: 1rem;
+        background-color: white;
+       
+        
+    }
+    
+    .orange{
+        color: hsl(0, 36%, 70%);
+    }
+    .error-message{
+        color: red;
+       position: relative;
+       bottom: 4rem;
+       padding:0.8rem  4.5rem;
+    }
+    .icon-error{
+        position: relative;
+       bottom: 4rem;
+       left: 14rem;
+        
+    }
+}
+ @media(max-width:960px){
+    header{
+        padding-bottom: 2rem;
+    }
+    .mobile-image{
+        padding: 2rem;
+    }
+    .desktop-image{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    main{
+         background: linear-gradient(hsl(0, 0%, 100%),  hsl(0, 100%, 98%));;
+    }
+    .container{
+       align-items: center;
+       text-align: center;
+        max-width: 35rem;
+        padding:1rem 3rem ;
+        
+        
+    }
+    .mobile{
+       object-fit: contain;
+       position: relative;
+        width: 35rem;
+        bottom: 3rem;
+
+       
+    }
+    h1{
+        font-size: 3rem;
+        letter-spacing: 0.8rem;
+        color:  hsl(0, 6%, 24%);
+    
+        
+    }
+    .orange{
+        color: hsl(0, 36%, 70%);
+    }
+    p{
+        
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+    .flex{
+        display: flex;
+    }
+    input{
+        border: 1px solid hsl(0, 36%, 70%);
+        border-radius: 30px;
+        padding: 0.5rem;
+        position: relative;
+        width: 100rem;
+        left: 2rem;
+        top: 0.5rem;
+       
+        
+    }
+    button{
+         position: relative;
+        right: 2rem;
+        border-radius: 50%;
+        padding: 0.8rem;
+        width: 15rem;
+        height: 3.5rem;
+        background-color: hsl(0, 36%, 70%) ;
+        border: 0;
+        top: 0.5rem;
+        cursor: pointer; 
+        
+    
+        
+    }
+    button:hover{
+        box-shadow: 0 10px 20px hsl(0, 36%, 70%) ;
+    }
+    ::placeholder{
+        color:hsl(0, 36%, 70%) ;
+        
+    }
+    .error-message{
+        color: red;
+       position: relative;
+       bottom: 2rem;
+       padding:0.8rem  6rem;
+    }
+    .icon-error{
+        position: relative;
+        right: 10rem;
+        width:5rem;
+        height:2rem;
+        top: 1.2rem;
+    }
+ }
+
+

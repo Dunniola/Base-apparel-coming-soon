@@ -1,0 +1,6 @@
+body, div, main, header, footer, h1, h2, span, img, input, ::placeholder{
+    margin: 0;
+    padding: 0;
+    border:0
+    
+}
