@@ -39,7 +39,7 @@ Mobile design
 ### Links
 
 - Solution URL: [Dunniola](https://github.com/Dunniola/Base-apparel-coming-soon.git)
-- Live Site URL: [Netlify App]()
+- Live Site URL: [Github App](https://dunniola.github.io/Base-apparel-coming-soon/)
 
 ## My process
 
@@ -54,7 +54,7 @@ Mobile design
 
 ## Author
 
-- Website - [Dunniola](https://www.your-site.com)
+- Website - [Dunniola](https://dunniola.github.io/Base-apparel-coming-soon/)
 - Frontend Mentor - [@Dunniola](https://www.frontendmentor.io/profile/Dunniola)
 - Twitter - [@Eduoladunni](https://www.twitter.com/Eduoladunni)
 
